@@ -1,0 +1,6 @@
+[submodule "pallettes"]
+	path = pallettes
+	url = https://github.com/Gnuplotting/gnuplot-palettes
+[submodule "snippets"]
+	path = snippets
+	url = https://github.com/Gnuplotting/gnuplot-configs

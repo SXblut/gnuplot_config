@@ -1,0 +1,16 @@
+#!/usr/bin/gnuplot
+reset
+
+set macros
+set loadpath  '~/.gnuplot_conf/snippets/' \
+              '~/.gnuplot_conf/pallettes/';
+std_font = "'Helvetica,20'";
+std_terminal = "postscript eps size 3.5,2.62 enhanced color font @std_font lw 2";
+WXT = "wxt size 350,262 enhanced font @std_font persist";
+
+set terminal @std_terminal
+
+#default style options
+load 'moreland.pal'
+set border linewidth 1.5;
+set grid
